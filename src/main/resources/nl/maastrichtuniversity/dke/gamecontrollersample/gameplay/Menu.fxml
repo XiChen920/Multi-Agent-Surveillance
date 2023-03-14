@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-colour: black; -fx-background-size: cover;" styleClass="anchor2" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.maastrichtuniversity.dke.gamecontrollersample.gameplay.GameRunner">
+    <stylesheets>
+        <URL value="@application.css" />
+    </stylesheets>
+
+    <children>
+
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="30.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#explorationEvent" prefHeight="61.0" prefWidth="478.0" style="-fx-base: #b6e7c9;;" styleClass="text1" text="Exploration">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip showDelay="250ms" text="Agents will explore a map unknown to them" />
+                    </tooltip>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#guardsVersusIntruders" prefHeight="59.0" prefWidth="482.0" style="-fx-base: #b6e7c9;" styleClass="text1" text="Guards versus Intruders">
+                    <font>
+                        <Font name="Arial" size="22.0" />
+                    </font>
+                    <tooltip>
+                        <Tooltip showDelay="250ms" text="Guards will try to prevent intruders getting to the target" />
+                    </tooltip>
+                </Button>
+            <Button mnemonicParsing="false" onAction="#simulate" text="Simulate" style="-fx-base: #b6e7c9;" styleClass="text2" />
+            </children>
+        </VBox>
+      <Text fill="#171717" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text1" text="Group 1" translateY="-125.0">
+         <font>
+            <Font name="System Italic" size="32.0" />
+         </font></Text>
+    </children>
+</StackPane>

@@ -1,0 +1,15 @@
+.text1 {
+    -fx-font-family: "Courier New", fantasy;
+    -fx-font-size: 30px;
+}
+
+
+
+.anchor2 {
+    -fx-background-image:url('background2.jpeg');
+    -fx-background-repeat: stretch;
+}
+
+Button:foo {
+    -fx-base: #b6e7c9;
+}
