@@ -1,4 +1,4 @@
-# Project 2-2 Group 1
+
 
 ##### Running the program:
 1. Ensure Java 17 is installed on your computer.
